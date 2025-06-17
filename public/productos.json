@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "orden": 1,
+    "categoria": "men",
+    "tipo": "Sweatshirt",
+    "titulo": "Mulyungarie Sweatshirt",
+    "nombre": "Mulyungarie Sweatshirt",
+    "precio": 59010,
+    "precioOriginal": 84300,
+    "imagenes": [
+      "/imagenes/men/Sudadera/sudadera-cremallera-mulyu-1.jpg",
+      "/imagenes/men/Sudadera/sudadera-cremallera-mulyu-2.jpg",
+      "/imagenes/men/Sudadera/sudadera-cremallera-mulyu-3.jpg"
+    ],
+    "descripcion": "Quarter-zip sweatshirt, comfortable and modern.",
+    "descuento": 30,
+    "colores": ["#979B85"],
+    "tallas": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 2,
+    "orden": 2,
+    "categoria": "men",
+    "tipo": "T-shirt",
+    "titulo": "Vara Polo T-shirt",
+    "nombre": "Vara Polo T-shirt",
+    "precio": 33600,
+    "precioOriginal": 42000,
+    "imagenes": [
+      "/imagenes/men/Camiseta/vara-polo-1.jpg",
+      "/imagenes/men/Camiseta/vara-polo-2.jpg",
+      "/imagenes/men/Camiseta/vara-polo-3.jpg"
+    ],
+    "descripcion": "Comfortable and casual cotton t-shirt.",
+    "descuento": 20,
+    "colores": ["#375C88"],
+    "tallas": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 3,
+    "orden": 3,
+    "categoria": "men",
+    "tipo": "Jacket",
+    "titulo": "Palmer Bomber Jacket",
+    "nombre": "Palmer Bomber Jacket",
+    "precio": 63700,
+    "precioOriginal": 91000,
+    "imagenes": [
+      "/imagenes/men/Chaqueta/chaqueta-bomber-palmer-1.jpg",
+      "/imagenes/men/Chaqueta/chaqueta-bomber-palmer-2.jpg",
+      "/imagenes/men/Chaqueta/chaqueta-bomber-palmer-3.jpg"
+    ],
+    "descripcion": "Bomber jacket for an urban look.",
+    "descuento": 30,
+    "colores": ["#8D8D69", "#222222"],
+    "tallas": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 4,
+    "orden": 4,
+    "categoria": "men",
+    "tipo": "Shirt",
+    "titulo": "Oxford Shirt",
+    "nombre": "Oxford Shirt",
+    "precio": 21750,
+    "precioOriginal": 43500,
+    "imagenes": [
+      "/imagenes/men/Camisa/camisaox-1.jpg",
+      "/imagenes/men/Camisa/camisaox-2.jpg",
+      "/imagenes/men/Camisa/camisaox-3.jpg"
+    ],
+    "descripcion": "Regular Oxford shirt with button-down collar.",
+    "descuento": 50,
+    "colores": ["#33538A"],
+    "tallas": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 5,
+    "orden": 5,
+    "categoria": "men",
+    "tipo": "Vest",
+    "titulo": "Padstow Vest",
+    "nombre": "Padstow Vest",
+    "precio": 29995,
+    "precioOriginal": 74987,
+    "imagenes": [
+      "/imagenes/men/Chaleco/chaleco-1.jpg",
+      "/imagenes/men/Chaleco/chaleco-2.jpg",
+      "/imagenes/men/Chaleco/chaleco-3.jpg"
+    ],
+    "descripcion": "Padstow vest with Primaloft insulation.",
+    "descuento": 60,
+    "colores": ["#38382C"],
+    "tallas": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 6,
+    "orden": 6,
+    "categoria": "men",
+    "tipo": "Rugby",
+    "titulo": "Buck Rugby",
+    "nombre": "Buck Rugby",
+    "precio": 37200,
+    "precioOriginal": 62000,
+    "imagenes": [
+      "/imagenes/men/Rugby/rugby-1.jpg",
+      "/imagenes/men/Rugby/rugby-2.jpg",
+      "/imagenes/men/Rugby/rugby-3.jpg"
+    ],
+    "descripcion": "Brushed cotton shirt with classic collar, embroidery, and side slits.",
+    "descuento": 40,
+    "colores": ["#2B2E3D"],
+    "tallas": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 7,
+    "orden": 7,
+    "categoria": "women",
+    "tipo": "Shirt",
+    "titulo": "Onley Oxford Shirt - Pink",
+    "nombre": "Onley Oxford Shirt - Pink",
+    "precio": 49000, 
+    "precioOriginal": 70000,
+    "imagenes": [
+      "/imagenes/women/Camisa-oxford/camisa-ox-1.jpg",
+      "/imagenes/women/Camisa-oxford/camisa-ox-2.jpg",
+      "/imagenes/women/Camisa-oxford/camisa-ox-3.jpg"
+    ],
+    "descripcion": "Elegant pink Oxford shirt for women, perfect for a casual or formal look.",
+    "descuento": 30,
+    "colores": ["#F6E1E4"],
+    "tallas": ["XS", "S", "M", "L"]
+  },
+  {
+    "id": 8,
+    "orden": 8,
+    "categoria": "women",
+    "tipo": "Coat",
+    "titulo": "Lawson Padded Coat - Chocolate",
+    "nombre": "Lawson Padded Coat - Chocolate",
+    "precio": 81000,
+    "precioOriginal": 108000,
+    "imagenes": [
+      "/imagenes/women/Abrigo/abrigo-1.jpg",
+      "/imagenes/women/Abrigo/abrigo-2.jpg",
+      "/imagenes/women/Abrigo/abrigo-3.jpg"
+    ],
+    "descripcion": "Lawson padded coat in chocolate color, ideal for colder days.",
+    "descuento": 25,
+    "colores": ["#332923"],
+    "tallas": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": 9,
+    "orden": 9,
+    "categoria": "women",
+    "tipo": "Shirt",
+    "titulo": "Hopeland Linen Shirt - Check - Jade",
+    "nombre": "Hopeland Linen Shirt - Check - Jade",
+    "precio": 55800,
+    "precioOriginal": 62000,
+    "imagenes": [
+      "/imagenes/women/Camisa-lino/camisa-lino-1.jpg",
+      "/imagenes/women/Camisa-lino/camisa-lino-2.jpg",
+      "/imagenes/women/Camisa-lino/camisa-lino-3.jpg"
+    ],
+    "descripcion": "Fresh Hopeland check linen shirt in a vibrant jade color.",
+    "descuento": 10,
+    "colores": ["#C3CFD1"],
+    "tallas": ["XS", "S", "M", "L"]
+  },
+  {
+    "id": 10,
+    "orden": 10,
+    "categoria": "women",
+    "tipo": "Sweatshirt",
+    "titulo": "Trickett Quarter Zip Sweatshirt - Shell Pink",
+    "nombre": "Trickett Quarter Zip Sweatshirt - Shell Pink",
+    "precio": 51300,
+    "precioOriginal": 54000,
+    "imagenes": [
+      "/imagenes/women/Sudadera-cremallera/sudadera-cremallera-1.jpg",
+      "/imagenes/women/Sudadera-cremallera/sudadera-cremallera-2.jpg",
+      "/imagenes/women/Sudadera-cremallera/sudadera-cremallera-3.jpg"
+    ],
+    "descripcion": "Trickett quarter-zip sweatshirt in a soft shell pink color.",
+    "descuento": 5,
+    "colores": ["#DBA58A"],
+    "tallas": ["XS", "S", "M", "L", "XL"]
+  },
+  {
+    "id": 11,
+    "orden": 11,
+    "categoria": "women",
+    "tipo": "T-shirt",
+    "titulo": "Avoca Ribbed Henley - Black",
+    "nombre": "Avoca Ribbed Henley - Black",
+    "precio": 27200,
+    "precioOriginal": 34000,
+    "imagenes": [
+      "/imagenes/women/Camiseta-henley/camiseta-henley-1.jpg",
+      "/imagenes/women/Camiseta-henley/camiseta-henley-2.jpg",
+      "/imagenes/women/Camiseta-henley/camiseta-henley-3.jpg"
+    ],
+    "descripcion": "Avoca ribbed Henley t-shirt, an essential basic in black.",
+    "descuento": 20,
+    "colores": ["#1C1E21"],
+    "tallas": ["XS", "S", "M", "L"]
+  },
+  {
+    "id": 12,
+    "orden": 12,
+    "categoria": "women",
+    "tipo": "Sweatshirt",
+    "titulo": "Lasso Brushed Sweatshirt - Navy",
+    "nombre": "Lasso Brushed Sweatshirt - Navy",
+    "precio": 38430,
+    "precioOriginal": 54900,
+    "imagenes": [
+      "/imagenes/women/Sudadera-lasso/sudadera-lasso-1.jpg",
+      "/imagenes/women/Sudadera-lasso/sudadera-lasso-2.jpg",
+      "/imagenes/women/Sudadera-lasso/sudadera-lasso-3.jpg"
+    ],
+    "descripcion": "Lasso brushed sweatshirt, comfortable and stylish in navy blue.",
+    "descuento": 30,
+    "colores": ["#1D2331"],
+    "tallas": ["XS", "S", "M", "L", "XL"]
+  }
+]

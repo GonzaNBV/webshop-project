@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.edit-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.edit-editar-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #EFF2F9;
+  box-shadow:
+    -10px -10px 20px #FAFBFF,
+    10px 10px 20px rgba(22, 27, 29, 0.23);
+}
+
+.edit-h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.edit-subtitle {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #6c757d;
+  text-align: center;
+}
+
+.edit-editar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edit-form-group {
+  width: 100%;
+}
+
+.edit-form-group label {
+  display: block;
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.edit-form-group input,
+.edit-form-group select {
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+  background-color: #EFF2F9;
+  color: #3c3c3c;
+  border: none;
+  box-shadow:
+    -5px -5px 10px #FAFBFF,
+    5px 5px 10px rgba(22, 27, 29, 0.23);
+  transition: all 0.3s ease;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.edit-form-group select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg width='16' height='16' fill='%236c757d' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 6l4 4 4-4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px;
+  cursor: pointer;
+}
+
+.edit-form-group input::placeholder {
+  color: #6c757d;
+}
+
+.edit-form-group input:focus,
+.edit-form-group select:focus {
+  outline: none;
+  box-shadow:
+    inset -5px -5px 10px #FAFBFF,
+    inset 5px 5px 10px rgba(22, 27, 29, 0.23);
+}
+
+.edit-form-group.row {
+  display: flex;
+  gap: 15px;
+}
+
+.edit-form-group.row .edit-form-group {
+  flex: 1;
+}
+
+.edit-password-container {
+  position: relative;
+}
+
+.edit-password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.edit-password-toggle i {
+  font-size: 18px;
+  color: #555;
+}
+
+.edit-password-toggle i:hover {
+  color: #262729;
+}
+
+.edit-submit-button {
+  background-color: #EFF2F9;
+  color: #262729;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow:
+    -5px -5px 10px #FAFBFF,
+    5px 5px 10px rgba(22, 27, 29, 0.23);
+  transition: background-color 0.3s ease;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.edit-submit-button:hover {
+  background-color: #E0E3EF;
+}
+
+.edit-back-to-editar {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.edit-back-to-editar i {
+  font-size: 22px;
+  margin-right: 8px;
+  color: #262729;
+}
+
+.edit-fade-wrapper {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.edit-fade-wrapper.visible {
+  opacity: 1;
+}
+
+.edit-sombracinco-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.edit-sombracinco-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+  mix-blend-mode: normal;
+  filter: brightness(0.3);
+}

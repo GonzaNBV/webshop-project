@@ -1,0 +1,146 @@
+.admin-layout {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #EFF2F9;
+    position: relative;
+}
+
+.admin-layout-sidebar {
+    width: 260px;
+    background-color: #EFF2F9;
+    color: #D2D9E9;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 20px 0;
+    z-index: 100;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 3px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+.admin-layout-sidebar-header {
+    padding: 20px 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-layout-sidebar-header h3 {
+    margin: 0;
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #3C3C3C;
+}
+
+.admin-layout-sidebar-nav {
+    flex-grow: 1;
+    padding: 10px 0;
+}
+
+.admin-layout-sidebar-nav ul {
+    list-style-type: none;
+}
+
+.admin-layout-sidebar-nav li a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 25px;
+    margin: 0 10px 5px 10px;
+    color: #808285;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 6px;
+    position: relative;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.admin-layout-sidebar-nav li a .bi {
+    font-size: 1.3em;
+    min-width: 25px;
+    text-align: center;
+}
+
+.admin-layout-sidebar-nav li a:hover {
+    color: #3C3C3C;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.admin-layout-sidebar-nav li a.active {
+    color: #3C3C3C;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.admin-layout-sidebar-nav li a.active .bi {
+    color: #3C3C3C;
+}
+
+.admin-layout-sidebar-footer {
+    padding: 20px 25px;
+    margin-top: auto; 
+}
+
+.admin-layout-logout-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    background-color: transparent; 
+    color: #808285;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.admin-layout-logout-button:hover {
+    color: #E2586A;
+}
+
+.admin-layout-logout-button .bi {
+    font-size: 1.1em;
+}
+
+.admin-layout-content {
+    margin-left: 360px;
+    flex-grow: 1;
+    padding: 50px;
+    width: calc(100% - 260px);
+    max-height: calc(100vh);
+    overflow-y: auto; 
+    background-color: #EFF2F9;
+    position: relative; 
+    z-index: 1;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    .admin-layout {
+        flex-direction: column;
+    }
+
+    .admin-layout-sidebar {
+        font-size: 16px;
+        width: 100%;
+        position: relative;
+        height: auto;
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+
+    .admin-layout-content {
+        margin-left: auto;
+        padding: 10px;
+        width: 100%;
+    }
+}
+

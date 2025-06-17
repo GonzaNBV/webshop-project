@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.admin-crear-product-fade-wrapper {
+  opacity: 1;
+  transition: opacity 0.6s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #EFF2F9;
+  font-family: 'Quicksand', sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.admin-crear-product-container {
+  width: 100%;
+  max-width: 550px;
+  padding: 35px;
+  border-radius: 20px;
+  background-color: #EFF2F9;
+  box-shadow:
+    -12px -12px 24px #FAFBFF,
+    12px 12px 24px rgba(22, 27, 29, 0.25);
+  text-align: center;
+}
+
+.admin-crear-product-container h2 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.admin-crear-product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.admin-crear-product-form .form-group {
+  width: 100%;
+  text-align: left;
+}
+
+.admin-crear-product-form .form-group label {
+  display: block;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: #4A4A4A;
+}
+
+.admin-crear-product-form .form-group input[type="text"],
+.admin-crear-product-form .form-group input[type="number"],
+.admin-crear-product-form .form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #EFF2F9;
+  border: none;
+  color: #3c3c3c;
+  box-shadow:
+    inset -4px -4px 8px #FAFBFF,
+    inset 4px 4px 8px rgba(22, 27, 29, 0.20);
+  transition: all 0.3s ease;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.admin-crear-product-form .form-group textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.admin-crear-product-form .form-group input::placeholder,
+.admin-crear-product-form .form-group textarea::placeholder {
+  color: #888;
+}
+
+.admin-crear-product-form .form-group input:focus,
+.admin-crear-product-form .form-group textarea:focus {
+  outline: none;
+  box-shadow:
+    inset -2px -2px 5px #FAFBFF,
+    inset 2px 2px 5px rgba(22, 27, 29, 0.15),
+    0 0 0 2px rgba(92, 103, 242, 0.4);
+}
+
+.admin-crear-product-form input[type=number]::-webkit-inner-spin-button,
+.admin-crear-product-form input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.admin-crear-product-form input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.admin-crear-product-form .form-group.imagen-group {
+  position: relative;
+  border: 2px dashed #d0d0e0;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f8f9fd;
+  box-shadow:
+    -4px -4px 8px #FAFBFF,
+    4px 4px 8px rgba(22, 27, 29, 0.20);
+}
+
+.admin-crear-product-form .form-group.imagen-group label {
+  margin-bottom: 10px;
+}
+
+.admin-crear-product-form .form-group.imagen-group input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #555;
+  cursor: pointer;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+.admin-crear-product-form .form-group.imagen-group input[type="file"]::-webkit-file-upload-button {
+  background: #172A39;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+.admin-crear-product-form .form-group.imagen-group input[type="file"]::file-selector-button {
+  background: #172A39;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+.admin-crear-product-form button[type="submit"] {
+  margin-top: 2px;
+  background-color: #172A39;
+  color: #EFF2F9;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 18px;
+  box-shadow: none;
+  transition: all 0.2s;
+  align-self: stretch;
+  box-shadow: -5px -5px 10px #FAFBFF, 5px 5px 10px rgba(22, 27, 29, 0.23);
+}
+
+.admin-crear-product-form button[type="submit"]:hover:not(:disabled) {
+  background-color: #000000;
+  color: white;
+  box-shadow: inset -3px -3px 6px rgba(74, 85, 104, 0.7), inset 3px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.admin-crear-product-form button[type="submit"]:disabled {
+  background-color: #c0c0e0;
+  cursor: not-allowed;
+  opacity: 0.8;
+  color: #777;
+  box-shadow: none;
+}
+
+@media (max-width: 640px) {
+  .admin-crear-product-container {
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .admin-crear-product-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .admin-crear-product-form {
+    gap: 12px;
+  }
+
+  .admin-crear-product-form .form-group label {
+    font-size: 12px;
+  }
+
+  .admin-crear-product-form .form-group input[type="text"],
+  .admin-crear-product-form .form-group input[type="number"],
+  .admin-crear-product-form .form-group textarea {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .admin-crear-product-form .form-group textarea {
+    min-height: 60px;
+  }
+
+  .admin-crear-product-form .form-group.imagen-group {
+    padding: 10px;
+  }
+
+  .admin-crear-product-form .form-group.imagen-group input[type="file"] {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .admin-crear-product-form button[type="submit"] {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
