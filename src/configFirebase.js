@@ -1,19 +1,22 @@
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCG8WjZREBO8Fqy5DMh6KFGcUjrQeFBap4",
-  authDomain: "react-a4dbb.firebaseapp.com",
-  projectId: "react-a4dbb",
-  storageBucket: "react-a4dbb.appspot.com",
-  messagingSenderId: "484153769649",
-  appId: "1:484153769649:web:fd661cae3b1f71429b6c90",
-  measurementId: "G-NYKS280DD1"
+  apiKey: "AIzaSyBTlexlVzR__R-pN_avwvAMMRK7qeEWuLE",
+  authDomain: "webshop-project-63a39.firebaseapp.com",
+  databaseURL: "https://webshop-project-63a39-default-rtdb.firebaseio.com",
+  projectId: "webshop-project-63a39",
+  storageBucket: "webshop-project-63a39.appspot.com",
+  messagingSenderId: "792967570901",
+  appId: "1:792967570901:web:51d90c180baaa14179895c",
+  measurementId: "G-PV001C7NVX"
 };
 
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-const auth = getAuth(app);
 
-export { db, auth };
+const analytics = getAnalytics(app);
+
+export const db = getFirestore(app);
+export const auth = getAuth(app);
